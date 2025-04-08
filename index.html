@@ -1,30 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
+  <html lang="en">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+  <main class="container">
+    <div class="card">
+      <div class="user__info">
+        <img src="/assets/images/avatar-jessica.jpeg" alt="user photo" class="user__picture">
+        <h2 class="user__name">Jessica Randall</h2>
+        <h3 class="user__location">London, United Kingdom</h3>
+        <p class="user__description">"Front-end developer and avid reader."</p>
+      </div>
+      <div class="links">
+        <a href="#github" target="_blank" class="btn">
+          <span>GitHub</span>
+        </a>
+        <a href="#frontendmentor" target="_blank" class="btn">
+          <span>Frontend Mentor</span>
+        </a>
+        <a href="#linkedin" target="_blank" class="btn">
+          <span>LinkedIn</span>
+        </a>
+        <a href="#twitter" target="_blank" class="btn">
+          <span>Twitter</span>
+        </a>
+        <a href="#instagram" target="_blank" class="btn">
+          <span>Instagram</span>
+        </a>
+      </div>
+    </div>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
